@@ -1,0 +1,232 @@
+<html>
+	<head>
+    <!-- Character encoding-->
+    <meta charset="utf-8"/>
+    <!-- Custom CSS, Font Awesome, Bootstrap, MD -->
+    <link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/css/mdb.min.css">
+  </head>
+	
+  <body class="bodywrapper" >
+	<!--Main Navigation-->
+  <header>
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark  primary-color scrolling-navbar">
+    <a class="navbar-brand text-white" href="#"><strong>Navbar</strong></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" id="dropdownMenu1" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-white" data-toggle="modal" data-target="#modalNewAlarm">Register</a>
+          </li>
+      </ul>
+
+      <ul class="navbar-nav nav-flex-icons">
+        <li class="nav-item">
+          <a class="nav-link"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"><i class="fab fa-twitter"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"><i class="fab fa-instagram"></i></a>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <!-- Modal Registration-->
+<div class="modal fade" id="modalNewAlarm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header text-center">
+      <h4 class="modal-title w-100 font-weight-bold text-dark">Register</h4>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body mx-3">
+      
+      <i class="fas fa-users prefix grey-text"></i>
+      <label class="text-dark"> Choose a Team</label>
+      <div class="md-form">
+        <select class="custom-select custom-select-sm">
+          <option selected>Team</option>
+          <option value="1">team-a</option>
+          <option value="2">team-b</option>
+          <option value="3">team-c</option>
+        </select>
+      </div>
+
+      <div class="md-form">
+        <i class="fas fa-arrow-alt-circle-right prefix grey-text"></i>
+        <input type="text" id="form3" class="form-control validate">
+        <label data-error="wrong" data-success="right" for="form3">Firstname</label>
+      </div>
+
+      <div class="md-form">
+        <i class="fas fa-arrow-alt-circle-right prefix grey-text"></i>
+        <input type="text" id="form4" class="form-control validate">
+        <label data-error="wrong" data-success="right" for="form4">Lastname</label>
+      </div>
+
+      <div class="md-form">
+        <i class="fas fa-passport prefix grey-text"></i>
+        <input type="text" id="form5" class="form-control validate">
+        <label data-error="wrong" data-success="right" for="form5">Username</label>
+      </div>
+
+      <div class="md-form">
+        <i class="fas fa-key prefix grey-text"></i>
+        <input type="text" id="form6" class="form-control validate">
+        <label data-error="wrong" data-success="right" for="form6">Password</label>
+      </div>
+
+      <div class="md-form">
+        <i class="fas fa-envelope prefix grey-text"></i>
+        <input type="text" id="form7" class="form-control validate">
+        <label data-error="wrong" data-success="right" for="form7">Email address</label>
+      </div>
+
+      
+
+    </div>
+    <div class="modal-footer d-flex justify-content-center">
+      <button class="btn elegant-color-white">Save <i class="fas fa-paper-plane-o ml-1"></i></button>
+    </div>
+  </div>
+</div>
+</div>
+
+</header>
+<!--Main Navigation-->
+<main class="sitecontent">
+<!-- Search -->
+
+
+<br>
+
+
+
+<h2 class="primary-heading">Product Plans</h2><br>
+
+
+
+<br>
+<div class="row">
+  <div class="col-sm-4 mb-3 mb-md-0 text-center">
+      
+    <div class="card">
+        <h5 class="card-header h5">Class A</h5>
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#!" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+<br>
+  <div class="col-sm-4 text-center">
+    <div class="card">
+        <h5 class="card-header h5">Class B</h5>
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#!" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="col-sm-4 text-center">
+    <div class="card">
+        <h5 class="card-header h5">Class C</h5>
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#!" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+
+<!-- Extended default form grid -->
+<br>
+<h2 class="primary-heading">Product Details</h2><br>
+
+<table class="table">
+  <thead class="grey lighten-2">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Larry</td>
+      <td>the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<p>
+
+
+
+    </main>
+
+
+  <!--Footer-->
+  <footer class="page-footer font-small">
+    <div class="container-fluid">
+    </div>
+    <div class="footer-copyright py-3 text-center footer-text">
+      Bootstrap Demo with Material Design 
+      <a class="footer-text" href="https://github.com/ruanbekker">GitHub</a>
+    </div>
+  </footer>
+
+  <!-- JQuery, Popper, JS, MDB -->
+  <script type="text/javascript"src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/js/mdb.min.js"></script>
+
+  <!--Footer-->
+	</body>
+</html>
